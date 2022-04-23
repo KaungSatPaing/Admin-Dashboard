@@ -1,0 +1,432 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Admin Dashboard</title>
+    <!-- <link rel="stylesheet" href="vendor/bootstrap/dist/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+    <section class="main container-fluid">
+
+        <div class="row">
+            <!-- Side Bar Start -->
+            <div class="col-12 col-lg-3 col-xl-2 d-none d-lg-block overflow-scroll vh-100 sidebar">
+               <div class="d-flex justify-content-between align-items-center py-2 mt-4 brand">
+                    <!-- Logo and My Shop -->
+                   <div class="d-flex justify-content-center align-items-center">
+                       <span class="bg-primary rounded d-flex justify-content-center align-items-center px-2 py-1 me-2">
+                        <i class="text-white h4" style="margin-bottom: 2px;" data-feather="shopping-bag"></i>
+                       </span>
+                       <span class="font-weight-bolder h5 text-primary mb-0">My Shop</span>
+                   </div>
+                   <!-- Hide Bar Button -->
+                <button class="hide-sidebar-btn btn btn-light d-block d-lg-none">
+                    <i class="text-black-50" data-feather="x" style="font-size: 2em;"></i>
+                </button>
+
+               </div>
+               <div class="nav-menu">
+                <ul>
+                 <li class="menu-item">
+                     <a href="template.html" class="menu-item-link-1">
+                         <i class="i" style="width: 20px;height: 20px;" data-feather="home"></i>
+                         <span>Dashboard</span>
+                     </a>
+                 </li>
+                     <li class="menu-spacer"></li>
+                </ul>
+
+                <ul>
+                 <li class="menu-title">
+                    <span>Manage item</span>
+                 </li>
+                 <li class="menu-item">
+                     <a href="item-add.html" class="menu-item-link-1">
+                         <i class="i" data-feather="home"></i>
+                         <span>Add Item</span>
+                     </a>
+                 </li>
+                 <li class="menu-item">
+                     <a href="item-list.html" class="menu-item-link-2">
+                         <div class="d-flex align-items-center">
+                             <i class="i" data-feather="list"></i>
+                             <span>Item List</span>
+                         </div>
+                         <span class="badge rounded-pill text-dark shadow-sm">15</span>
+                     </a>
+                 </li>
+                 <li class="menu-spacer"></li>
+            </ul>
+
+            <ul>
+                <li class="menu-title">
+                   <span>Manage item</span>
+                </li>
+                <li class="menu-item">
+                    <a href="item-add.html" class="menu-item-link-1">
+                        <i class="i" data-feather="home"></i>
+                        <span>Add Item</span>
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="item-list.html" class="menu-item-link-2">
+                        <div class="d-flex align-items-center">
+                            <i class="i" data-feather="list"></i>
+                            <span>Item List</span>
+                        </div>
+                        <span class="badge rounded-pill text-dark shadow-sm">15</span>
+                    </a>
+                </li>
+                <li class="menu-spacer"></li>
+           </ul>
+
+           <ul>
+            <li class="menu-title">
+               <span>Manage item</span>
+            </li>
+            <li class="menu-item">
+                <a href="item-add.html" class="menu-item-link-1">
+                    <i class="i" data-feather="home"></i>
+                    <span>Add Item</span>
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="item-list.html" class="menu-item-link-2">
+                    <div class="d-flex align-items-center">
+                        <i class="i" data-feather="list"></i>
+                        <span>Item List</span>
+                    </div>
+                    <span class="badge rounded-pill text-dark shadow-sm">15</span>
+                </a>
+            </li>
+            <li class="menu-spacer"></li>
+       </ul>
+
+       <ul>
+        <li class="menu-title">
+           <span>Manage item</span>
+        </li>
+        <li class="menu-item">
+            <a href="item-add.html" class="menu-item-link-1">
+                <i class="i" data-feather="home"></i>
+                <span>Add Item</span>
+            </a>
+        </li>
+        <li class="menu-item">
+            <a href="item-list.html" class="menu-item-link-2">
+                <div class="d-flex align-items-center">
+                    <i class="i" data-feather="list"></i>
+                    <span>Item List</span>
+                </div>
+                <span class="badge rounded-pill text-dark shadow-sm">15</span>
+            </a>
+        </li>
+        <li class="menu-spacer"></li>
+   </ul>
+
+   <ul>
+    <li class="menu-title">
+       <span>Manage item</span>
+    </li>
+    <li class="menu-item">
+        <a href="item-add.html" class="menu-item-link-1">
+            <i class="i" data-feather="home"></i>
+            <span>Add Item</span>
+        </a>
+    </li>
+    <li class="menu-item">
+        <a href="item-list.html" class="menu-item-link-2">
+            <div class="d-flex align-items-center">
+                <i class="i" data-feather="list"></i>
+                <span>Item List</span>
+            </div>
+            <span class="badge rounded-pill text-dark shadow-sm">15</span>
+        </a>
+    </li>
+    <li class="menu-spacer"></li>
+</ul>
+
+<ul>
+    <li class="menu-title">
+       <span>Manage item</span>
+    </li>
+    <li class="menu-item">
+        <a href="item-add.html" class="menu-item-link-1">
+            <i class="i" data-feather="home"></i>
+            <span>Add Item</span>
+        </a>
+    </li>
+    <li class="menu-item">
+        <a href="item-list.html" class="menu-item-link-2">
+            <div class="d-flex align-items-center">
+                <i class="i" data-feather="list"></i>
+                <span>Item List</span>
+            </div>
+            <span class="badge rounded-pill text-dark shadow-sm">15</span>
+        </a>
+    </li>
+    <li class="menu-spacer"></li>
+</ul>
+
+<ul>
+    <li class="menu-title">
+       <span>Manage item</span>
+    </li>
+    <li class="menu-item">
+        <a href="item-add.html" class="menu-item-link-1 active">
+            <i class="i" data-feather="home"></i>
+            <span>Add Item</span>
+        </a>
+    </li>
+    <li class="menu-item">
+        <a href="item-list.html" class="menu-item-link-2">
+            <div class="d-flex align-items-center">
+                <i class="i" data-feather="list"></i>
+                <span>Item List</span>
+            </div>
+            <span class="badge rounded-pill text-dark shadow-sm">15</span>
+        </a>
+    </li>
+    <li class="menu-spacer"></li>
+</ul>
+
+<ul>
+    <li class="menu-title">
+       <span>Manage item</span>
+    </li>
+    <li class="menu-item">
+        <a href="item-add.html" class="menu-item-link-1">
+            <i class="i" data-feather="home"></i>
+            <span>Add Item</span>
+        </a>
+    </li>
+    <li class="menu-item">
+        <a href="item-list.html" class="menu-item-link-2">
+            <div class="d-flex align-items-center">
+                <i class="i" data-feather="list"></i>
+                <span>Item List</span>
+            </div>
+            <span class="badge rounded-pill text-white shadow-sm">15</span>
+        </a>
+    </li>
+    <li class="menu-spacer"></li>
+</ul>
+
+<ul>
+    <li class="menu-title">
+       <span>Manage item</span>
+    </li>
+    <li class="menu-item">
+        <a href="item-add.html" class="menu-item-link-1">
+            <i class="i" data-feather="home"></i>
+            <span>Add Item</span>
+        </a>
+    </li>
+    <li class="menu-item">
+        <a href="item-list.html" class="menu-item-link-2">
+            <div class="d-flex align-items-center">
+                <i class="i" data-feather="list"></i>
+                <span>Item List</span>
+            </div>
+            <span class="badge rounded-pill text-white shadow-sm">15</span>
+        </a>
+    </li>
+    <li class="menu-spacer"></li>
+</ul>
+
+<ul>
+    <li class="menu-title">
+       <span>Manage item</span>
+    </li>
+    <li class="menu-item">
+        <a href="item-add.html" class="menu-item-link-1">
+            <i class="i" data-feather="home"></i>
+            <span>Add Item</span>
+        </a>
+    </li>
+    <li class="menu-item">
+        <a href="item-list.html" class="menu-item-link-2">
+            <div class="d-flex align-items-center">
+                <i class="i" data-feather="list"></i>
+                <span>Item List</span>
+            </div>
+            <span class="badge rounded-pill text-white shadow-sm">15</span>
+        </a>
+    </li>
+    <li class="menu-spacer"></li>
+</ul>
+
+<ul>
+    <li class="menu-title">
+       <span>Manage item</span>
+    </li>
+    <li class="menu-item">
+        <a href="item-add.html" class="menu-item-link-1">
+            <i class="i" data-feather="home"></i>
+            <span>Add Item</span>
+        </a>
+    </li>
+    <li class="menu-item">
+        <a href="item-list.html" class="menu-item-link-2">
+            <div class="d-flex align-items-center">
+                <i class="i" data-feather="list"></i>
+                <span>Item List</span>
+            </div>
+            <span class="badge rounded-pill text-white shadow-sm">15</span>
+        </a>
+    </li>
+    <li class="menu-spacer"></li>
+</ul>
+            </div>
+            </div>
+            <!-- Content -->
+            <div class="col-12 col-lg-9 col-xl-10 py-3 content">
+                <!-- Header -->
+                <div class="row header mb-3">
+                    <div class="col-12">
+                       <div class="p-2 bg-primary d-flex justify-content-between align-items-center rounded">
+                            <!-- Show Button -->
+                           <button class="show-sidebar-btn btn btn-primary d-block d-lg-none">
+                               <i class="text-white" data-feather="menu" style="font-size: 2em;"></i>
+                           </button>
+                           <!-- Form and Search -->
+                           <form class="d-none d-md-block" action="" method="post">
+                               <div class="d-flex ">
+                                   <input type="text" class="form-control me-2">
+                                   <button class="btn btn-light">
+                                       <i class="text-primary" data-feather="search"></i>
+                                   </button>
+                               </div>
+                           </form>
+                           <!-- Dropdown Button -->
+                           <div class="dropdown">
+                            <button class="btn btn-light dropdown-toggle px-3" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                              <img src="img/user/avatar1.jpg" class="rounded-circle" style="width: 35px;" alt="">Alexandre Jun
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                              <li><a class="dropdown-item active" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item" href="#">Log Out</a></li>
+                            </ul>
+                          </div>
+                          
+                       </div>
+                    </div>
+                </div>
+                <!-- Content Area Start -->
+                <div class="row">
+                    <!-- Breadcrumb -->
+                    <div class="col-12">
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb mb-4">
+                              <li class="breadcrumb-item"><a href="template.html" class="text-decoration-none">Home</a></li>
+                              <li class="breadcrumb-item"><a href="item-list.html" class="text-decoration-none">Item</a></li>
+                              <li class="breadcrumb-item active" aria-current="page">Add Item</li>
+                            </ol>
+                          </nav>
+                    </div>
+                </div>
+                        <div class="row">
+                            <div class="col-12 col-xl-8">
+                                <div class="card mb-4">
+                                    <div class="card-body">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="d-flex align-items-center">
+                                                <i data-feather="plus-circle" class="text-primary me-2"></i>
+                                                <h4 class="mb-0">Add Item</h4>
+                                            </div>
+                                            <a href="item-list.html" class="btn btn-outline-primary">
+                                                <i data-feather="list"></i>
+                                            </a>
+                                        </div>
+                                        <hr>
+                                    <form action="#" method="post">
+                                        <div class="row">
+                                            <div class="col-12 col-md-6">
+                                                    <div class="mb-3 form-group">
+                                                        <label for="formFileSm" class="form-label mb-0 me-2">Photo Upload</label>
+                                                        <i class="text-primary pb-1" data-feather="info" data-toggle="popover" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?"></i>
+                                                        <input class="mt-3 form-control form-control-sm" id="formFileSm" type="file">
+                                                    </div>
+                                                    <div class="mb-3 form-group">
+                                                        <label for="formFileSm" class="mb-0 me-2">Item Name</label>
+                                                        <input type="text" class="form-control mt-3">
+                                                    </div>
+                                                    <div class="mb-3 form-group">
+                                                        <label for="formFileSm" class="mb-0 me-2">Type</label>
+                                                        <select name="type" class="form-select form-select-sm mt-3" id="formFileSm">
+                                                            <option value="0">ကုန်စို</option>
+                                                            <option value="1">ကုန်ခြောက်</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="mb-3 form-group">
+                                                        <label for="catego" class="mb-0 me-2">Main Category</label>
+                                                        <select name="type" class="form-select form-select-sm mt-3" id="catego">
+                                                            <option value="" selected disabled>Selected Category</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="mb-3 form-group">
+                                                        <label for="subcatego" class="mb-0 me-2">Sub Category</label>
+                                                        <select name="type" class="form-select form-select-sm mt-3" id="subcatego">
+                                                            <option value="" selected disabled>Selected Sub Category</option>
+                                                        </select>
+                                                    </div>
+                                            </div>
+                                            <div class="col-12 col-md-6">
+                                                <div class="row">
+                                                    <div class="col-6 mb-3">
+                                                        <label for="q">Item Quantity</label>
+                                                        <input type="text" class="form-control form-control-sm mt-3" name="q" id="q">
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <label for="q">Unit</label>
+                                                        <select name="type" class="form-select form-select-sm mt-3" id="formFileSm">
+                                                            <option value="0">Select Unit</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="col-12 mb-3">
+                                                        <label for="formFileSm" class="mb-0 me-2">Price</label>
+                                                        <input type="number" class="form-control mt-3">
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <label for="formFileSm" class="mb-0 me-2">Description</label>
+                                                        <textarea class="form-control mt-3" id="formFileSm" rows="8"></textarea>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <hr>
+                                        <buttom class="btn btn-primary">Add Item</buttom>
+                                    </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                         <!-- Content Area End -->
+                    </div>
+                </div>
+               
+            
+    </section>
+
+<script src="vendor/jquery/dist/jquery.min.js"></script>
+<script src="vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="vendor/waypoints/lib/jquery.waypoints.min.js"></script>
+<script src="vendor/feather-icons/dist/feather.min.js"></script>
+<script src="vendor/DataTables-1.11.5/js/jquery.dataTables.min.js"></script>
+<script src="vendor/DataTables-1.11.5/js/dataTables.bootstrap5.min.js"></script>
+<script src="vendor/@popperjs/core/dist/umd/popper.js"></script>
+<script src="js/app.js"></script>
+
+
+</body>
+</html>

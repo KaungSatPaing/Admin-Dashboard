@@ -1,0 +1,513 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Admin Dashboard</title>
+    <!-- <link rel="stylesheet" href="vendor/bootstrap/dist/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="vendor/fontawesome-free-6.0.0-web/css/all.min.css">
+    <link rel="stylesheet" href="vendor/DataTables-1.11.5/css/dataTables.bootstrap5.min.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+    <section class="main container-fluid">
+
+        <div class="row">
+            <!-- Side Bar Start -->
+            <div class="col-12 col-lg-3 col-xl-2 d-none d-lg-block vh-100 overflow-scroll sidebar">
+               <div class="d-flex justify-content-between align-items-center py-2 mt-4 brand">
+                    <!-- Logo and My Shop -->
+                   <div class="d-flex justify-content-center align-items-center">
+                       <span class="bg-primary rounded d-flex justify-content-center align-items-center px-2 py-1 me-2">
+                        <i class="text-white h4" style="margin-bottom: 2px;" data-feather="shopping-bag"></i>
+                       </span>
+                       <span class="font-weight-bolder h5 text-primary mb-0">My Shop</span>
+                   </div>
+                   <!-- Hide Bar Button -->
+                <button class="hide-sidebar-btn btn btn-light d-block d-lg-none">
+                    <i class="text-black-50" data-feather="x" style="font-size: 2em;"></i>
+                </button>
+
+               </div>
+               <!-- Side Bar Menu -->
+               <div class="nav-menu">
+                   <ul>
+                    <li class="menu-item">
+                        <a href="#" class="menu-item-link-1 active">
+                            <i class="i" style="width: 20px;height: 20px;" data-feather="home"></i>
+                            <span>Dashboard</span>
+                        </a>
+                    </li>
+                        <li class="menu-spacer"></li>
+                   </ul>
+
+                   <ul>
+                    <li class="menu-title">
+                       <span>Manage item</span>
+                    </li>
+                    <li class="menu-item">
+                        <a href="item-add.html" class="menu-item-link-1">
+                            <i class="i" data-feather="home"></i>
+                            <span>Add Item</span>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="item-list.html" class="menu-item-link-2">
+                            <div class="d-flex align-items-center">
+                                <i class="i" data-feather="list"></i>
+                                <span>Item List</span>
+                            </div>
+                            <span class="badge rounded-pill text-dark shadow-sm">15</span>
+                        </a>
+                    </li>
+                    <li class="menu-spacer"></li>
+               </ul>
+
+               <ul>
+                <li class="menu-title">
+                   <span>Manage item</span>
+                </li>
+                <li class="menu-item">
+                    <a href="item-add.html" class="menu-item-link-1">
+                        <i class="i" data-feather="home"></i>
+                        <span>Add Item</span>
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="item-list.html" class="menu-item-link-2">
+                        <div class="d-flex align-items-center">
+                            <i class="i" data-feather="list"></i>
+                            <span>Item List</span>
+                        </div>
+                        <span class="badge rounded-pill text-dark shadow-sm">15</span>
+                    </a>
+                </li>
+                <li class="menu-spacer"></li>
+           </ul>
+
+           <ul>
+            <li class="menu-title">
+               <span>Manage item</span>
+            </li>
+            <li class="menu-item">
+                <a href="item-add.html" class="menu-item-link-1">
+                    <i class="i" data-feather="home"></i>
+                    <span>Add Item</span>
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="item-list.html" class="menu-item-link-2">
+                    <div class="d-flex align-items-center">
+                        <i class="i" data-feather="list"></i>
+                        <span>Item List</span>
+                    </div>
+                    <span class="badge rounded-pill text-dark shadow-sm">15</span>
+                </a>
+            </li>
+            <li class="menu-spacer"></li>
+       </ul>
+
+       <ul>
+        <li class="menu-title">
+           <span>Manage item</span>
+        </li>
+        <li class="menu-item">
+            <a href="item-add.html" class="menu-item-link-1">
+                <i class="i" data-feather="home"></i>
+                <span>Add Item</span>
+            </a>
+        </li>
+        <li class="menu-item">
+            <a href="item-list.html" class="menu-item-link-2">
+                <div class="d-flex align-items-center">
+                    <i class="i" data-feather="list"></i>
+                    <span>Item List</span>
+                </div>
+                <span class="badge rounded-pill text-dark shadow-sm">15</span>
+            </a>
+        </li>
+        <li class="menu-spacer"></li>
+   </ul>
+   
+   <ul>
+    <li class="menu-title">
+       <span>Manage item</span>
+    </li>
+    <li class="menu-item">
+        <a href="item-add.html" class="menu-item-link-1">
+            <i class="i" data-feather="home"></i>
+            <span>Add Item</span>
+        </a>
+    </li>
+    <li class="menu-item">
+        <a href="item-list.html" class="menu-item-link-2">
+            <div class="d-flex align-items-center">
+                <i class="i" data-feather="list"></i>
+                <span>Item List</span>
+            </div>
+            <span class="badge rounded-pill text-dark shadow-sm">15</span>
+        </a>
+    </li>
+    <li class="menu-spacer"></li>
+</ul>
+
+   <ul>
+    <li class="menu-title">
+       <span>Manage item</span>
+    </li>
+    <li class="menu-item">
+        <a href="item-add.html" class="menu-item-link-1">
+            <i class="i" data-feather="home"></i>
+            <span>Add Item</span>
+        </a>
+    </li>
+    <li class="menu-item">
+        <a href="item-list.html" class="menu-item-link-2">
+            <div class="d-flex align-items-center">
+                <i class="i" data-feather="list"></i>
+                <span>Item List</span>
+            </div>
+            <span class="badge rounded-pill text-dark shadow-sm">15</span>
+        </a>
+    </li>
+    <li class="menu-spacer"></li>
+</ul>
+               </div>
+            </div>
+            <!-- Content -->
+            <div class="col-12 col-lg-9 col-xl-10 py-3 content">
+                <!-- Header -->
+                <div class="row header mb-3">
+                    <div class="col-12">
+                       <div class="p-2 bg-primary d-flex justify-content-between align-items-center rounded">
+                            <!-- Show Button -->
+                           <button class="show-sidebar-btn btn btn-primary d-block d-lg-none">
+                               <i class="text-white" data-feather="menu" style="font-size: 2em;"></i>
+                           </button>
+                           <!-- Form and Search -->
+                           <form class="d-none d-md-block" action="" method="post">
+                               <div class="d-flex ">
+                                   <input type="text" class="form-control me-2">
+                                   <button class="btn btn-light">
+                                       <i class="text-primary" data-feather="search"></i>
+                                   </button>
+                               </div>
+                           </form>
+                           <!-- Dropdown Button -->
+                           <div class="dropdown">
+                            <button class="btn btn-light dropdown-toggle px-3" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                              <img src="img/user/avatar1.jpg" class="rounded-circle" style="width: 35px;" alt="">Alexandre Jun
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                              <li><a class="dropdown-item active" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item" href="#">Log Out</a></li>
+                            </ul>
+                          </div>
+                          
+                       </div>
+                    </div>
+                </div>
+                 <!-- Content Area Start -->
+                 
+                <!-- For The Status Card -->
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-6 col-xl-3 pe-2">
+                        <div class="card mb-3 status-card" onclick="location.href = 'https://www.google.com'"> <!--တစ်ခြားလင့်တွေကို ခုန်ချင်တဲ့ အခါ သုံးတယ်-->
+                            <div class="card-body">
+                                <div class="row align-items-center">
+
+                                    <div class="col-md-3">
+                                        <i class="text-primary mb-0" style="width: 40px;height: 40px;stroke-width: 1" data-feather="shopping-bag"></i>
+                                    </div>
+                                    <div class="col-9">
+                                        <p class="mb-0 font-weight-bolder h5">
+                                            <span class="counter-up">124</span>
+                                        </p>
+                                        <p class="mb-0 text-black-50" style="font-size: 13px;">Today Order</p>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+
+                        
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-6 col-xl-3 px-2">
+                        <div class="card mb-3 status-card">
+                            <div class="card-body">
+                                <div class="row align-items-center">
+
+                                    <div class="col-md-3">
+                                        <i class="text-primary mb-0" style="width: 40px;height: 40px;stroke-width: 1" data-feather="users"></i>
+                                    </div>
+                                    <div class="col-9">
+                                        <p class="mb-0 font-weight-bolder h5">
+                                            <span class="counter-up">443</span>
+                                        </p>
+                                        <p class="mb-0 text-black-50" style="font-size: 13px;">Total User</p>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+
+                        
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-6 col-xl-3 px-2">
+                        <div class="card mb-3 status-card" onclick="location.href = 'item-list.html'">
+                            <div class="card-body">
+                                <div class="row align-items-center">
+
+                                    <div class="col-md-3">
+                                        <i class="text-primary mb-0" style="width: 40px;height: 40px;stroke-width: 1" data-feather="package"></i>
+                                    </div>
+                                    <div class="col-9">
+                                        <p class="mb-0 font-weight-bolder h5">
+                                            <span class="counter-up">223</span>
+                                        </p>
+                                        <p class="mb-0 text-black-50" style="font-size: 13px;">Total Item</p>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+
+                        
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-6 col-xl-3 ps-2">
+                        <div class="card mb-3 status-card">
+                            <div class="card-body">
+                                <div class="row align-items-center">
+
+                                    <div class="col-md-3">
+                                        <i class="text-primary mb-0" style="width: 40px;height: 40px;stroke-width: 1" data-feather="map"></i>
+                                    </div>
+                                    <div class="col-9">
+                                        <p class="mb-0 font-weight-bolder h5">
+                                            <span class="counter-up">14</span>
+                                        </p>
+                                        <p class="mb-0 text-black-50" style="font-size: 13px;">Support Location</p>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+
+                        
+                    </div>
+                </div>
+                 <!-- For the Chart -->
+               <div class="row align-items-end">
+                   <div class="col-12 col-xl-7">
+                       <div class="card overflow-hidden shadow">
+                           <div class="">
+                               <div class="d-flex justify-content-between align-items-center p-2">
+                                   <h4 class="mb-0">Order & Viewer</h4>
+                                   <div class="">
+                                        <img src="img/user/avatar1.jpg" class="ov-img rounded-circle" alt="" srcset="">
+                                        <img src="img/user/avatar2.jpg" class="ov-img rounded-circle" alt="" srcset="">
+                                        <img src="img/user/avatar3.jpg" class="ov-img rounded-circle" alt="" srcset="">
+                                        <img src="img/user/avatar4.jpg" class="ov-img rounded-circle" alt="" srcset="">
+                                        <img src="img/user/avatar5.jpg" class="ov-img rounded-circle" alt="" srcset="">
+                                   </div>
+                                </div>
+                                <canvas id="ov" height="130"></canvas>
+                           </div>
+                       </div>
+                   </div>
+                   <!-- For the Card -->
+                   <div class="col-12 col-md-6 col-xl-5">
+                       <div class="card item-carousel-card">
+                           <div class="card-body h-50">
+                            <div id="carouselExampleIndicators" class="carousel slide item-carousel" data-bs-ride="carousel">
+                                <div class="carousel-indicators" style="margin-bottom: -10px;">
+                                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="bg-secondary active" aria-current="true" aria-label="Slide 1"></button>
+                                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="bg-secondary" aria-label="Slide 2"></button>
+                                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="bg-secondary" aria-label="Slide 3"></button>
+                                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" class="bg-secondary" aria-label="Slide 3"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active">
+                                    <div class="item-card">
+                                        <div class="d-flex justify-content-between align-items-end">
+                                            <div class="flex-grow-1" style="margin-bottom: 28px;">
+                                                <h4 class="text-primary">Coffee Cup</h4>
+                                                <p class="font-weight-bolder text-black-50 mb-3">500 MMK</p>
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                                  </div>
+                                            </div>
+                                            <img src="img/item/item1.png" class="item-card-img" alt="" srcset="">
+                                        </div>
+                                    </div>
+                                  </div>
+                                  <div class="carousel-item">
+                                    <div class="item-card">
+                                        <div class="d-flex justify-content-between align-items-end">
+                                            <div class="flex-grow-1" style="margin-bottom: 28px;">
+                                                <h4 class="text-primary">Stick</h4>
+                                                <p class="font-weight-bolder text-black-50 mb-3">1500 MMK</p>
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                                  </div>
+                                            </div>
+                                            <img src="img/item/item2.png" class="item-card-img" alt="" srcset="">
+                                        </div>
+                                    </div>
+                                  </div>
+                                  <div class="carousel-item">
+                                    <div class="item-card">
+                                        <div class="d-flex justify-content-between align-items-end">
+                                            <div class="flex-grow-1" style="margin-bottom: 28px;">
+                                                <h4 class="text-primary">Book</h4>
+                                                <p class="font-weight-bolder text-black-50 mb-3">5000 MMK</p>
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                                  </div>
+                                            </div>
+                                            <img src="img/item/item3.png" class="item-card-img" alt="" srcset="">
+                                        </div>
+                                    </div>
+                                  </div>
+                                  <div class="carousel-item">
+                                    <div class="item-card">
+                                        <div class="d-flex justify-content-between align-items-end">
+                                            <div class="flex-grow-1" style="margin-bottom: 28px;">
+                                                <h4 class="text-primary">Name Card</h4>
+                                                <p class="font-weight-bolder text-black-50 mb-3">2200 MMK</p>
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                                  </div>
+                                            </div>
+                                            <img src="img/item/item4.png" class="item-card-img" alt="" srcset="">
+                                        </div>
+                                    </div>
+                                  </div>
+                                </div>
+                               
+                              </div>
+                             
+                           </div>
+                       </div>
+                   </div>
+                   <!-- For the Pie Chart -->
+                   <div class="col-12 col-md-6 col-xl-5">
+                       <div class="card mt-3">
+                           <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center p-2">
+                                <h4 class="mb-0">Order & Viewer</h4>
+                                <div class="">
+                                    <i data-feather="pie-chart" class="mb-0 text-primary"></i>
+                                </div>
+                             </div>
+                               <canvas id="op"  height="200"></canvas>
+                           </div>
+                       </div>
+                   </div>
+                   <!-- For the Table -->
+                   <div class="col-12 col-md-6 col-xl-7">
+                       <div class="card overflow-hidden">
+                           <div class="">
+                            <div class="d-flex justify-content-between align-items-center p-2 my-2 border border-bottom-1 border-top-0 border-start-0 border-end-0 border-bottom-secondary">
+                                <h5 class="mb-0">Subscriber List</h5>
+                                <div class="">
+                                    <i data-feather="more-vertical" class="mb-0 text-primary"></i>
+                                </div>
+                             </div>
+                                <table class="table table-hover mb-0">
+                                    <thead>
+                                       <tr>
+                                          <th>Name</th>
+                                          <th>Company</th>
+                                          <th>Start Date</th>
+                                          <th>Status</th>
+                                          <th>Amount</th>
+                                          <th>Action</th>
+                                       </tr>
+                                    </thead>
+                                    <tbody class="sub-list">
+                                       <tr style="font-size: 14px;">
+                                          <td>Michael Austin</td>
+                                          <td>ABC Fintech LTD.</td>
+                                          <td>Jan 1,2019</td>
+                                          <td><span class="fw-bolder badge bg-danger" style="font-size: 13px;">Close</span></td>
+                                          <td>$ 1000.00</td>
+                                          <td class="text-center"><a class="text-decoration-none" href="#"><i data-feather="x" class="text-danger"></i></a></td>
+                                       </tr>
+                                       <tr style="font-size: 14px;">
+                                        <td>Michael Austin</td>
+                                        <td>ABC Fintech LTD.</td>
+                                        <td>Jan 1,2019</td>
+                                        <td><span class="fw-bolder badge badge-pill bg-success" style="font-size: 13px;">Open</span></td>
+                                        <td>$ 1000.00</td>
+                                        <td class="text-center"><a class="text-decoration-none" href="#"><i data-feather="check" class="text-success"></i></a></td>
+                                     </tr>
+                                     <tr style="font-size: 14px;">
+                                        <td>Michael Austin</td>
+                                        <td>ABC Fintech LTD.</td>
+                                        <td>Jan 1,2019</td>
+                                        <td><span class="fw-bolder badge bg-danger" style="font-size: 13px;">Close</span></td>
+                                        <td>$ 1000.00</td>
+                                        <td class="text-center"><a class="text-decoration-none" href="#"><i data-feather="x" class="text-danger"></i></a></td>
+                                     </tr>
+                                       <tr style="font-size: 14px;">
+                                          <td>Aldin Rakić</td>
+                                          <td>ACME Pvt LTD.</td>
+                                          <td>Jan 10,2019</td>
+                                          <td><span class="fw-bolder badge badge-pill bg-success" style="font-size: 13px;">Open</span></td>
+                                          <td>$ 3000.00</td>
+                                          <td class="text-center"><a class="text-decoration-none" href="#"><i data-feather="check" class="text-success"></i></a></td>
+                                       </tr>
+                                       <tr style="font-size: 14px;">
+                                          <td>İris Yılmaz</td>
+                                          <td>Collboy Tech LTD.</td>
+                                          <td>Jan 12,2019</td>
+                                          <td><span class="fw-bolder badge badge-pill bg-success" style="font-size: 13px;">Open</span></td>
+                                          <td>$ 2000.00</td>
+                                          <td class="text-center"><a  class="text-decoration-none" href="#"><i data-feather="check" class="text-success"></i></a></td>
+                                       </tr>
+                                       <tr style="font-size: 14px;">
+                                          <td>Lidia Livescu</td>
+                                          <td>My Fintech LTD.</td>
+                                          <td>Jan 14,2019</td>
+                                          <td><span class="fw-bolder badge bg-danger" style="font-size: 13px;">Close</span></td>
+                                          <td>$ 1100.00</td>
+                                          <td class="text-center"><a  class="text-decoration-none" href="#"><i data-feather="x" class="text-danger"></i></a></td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+                <!-- Content Area End -->
+            </div>
+        </div>
+
+    </section>
+
+<script src="vendor/jquery/dist/jquery.min.js"></script>
+<script src="vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="vendor/waypoints/lib/jquery.waypoints.min.js"></script>
+<script src="vendor/counter_up/counter_up.js"></script>
+<script src="vendor/feather-icons/dist/feather.min.js"></script>
+<script src="vendor/@popperjs/core/dist/umd/popper.js"></script>
+<script src="vendor/DataTables-1.11.5/js/jquery.dataTables.min.js"></script>
+<script src="vendor/DataTables-1.11.5/js/dataTables.bootstrap5.min.js"></script>
+<script src="vendor/chart_js/chart.min.js"></script>
+<script src="js/app.js"></script>
+<script src="js/dashboard.js"></script>
+
+</body>
+</html>
